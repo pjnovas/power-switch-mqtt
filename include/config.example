@@ -1,0 +1,21 @@
+/*
+   Configuration File
+   Rename me into config.h and set up
+*/
+
+#define WIFI_HOSTNAME "heater-switch"
+#define WIFI_SSID "WIFI-SSID"
+#define WIFI_PASSWORD "WIFI-PASS"
+
+#define MQTT_HOST "home"
+#define MQTT_PORT 1883
+#define MQTT_USER "user"
+#define MQTT_PASS "pass"
+
+#define MQTT_TOPIC_COMMAND "heater/switch/set"
+#define MQTT_TOPIC_STATE "heater/switch/state"
+
+#define SWITCH_PIN 0
+
+// uncomment for debuggin through serial port
+// #define DEBUG
